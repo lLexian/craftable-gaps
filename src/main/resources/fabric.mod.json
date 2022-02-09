@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "craftable-gaps",
+  "version": "${version}",
+
+  "name": "Craftable Enchanted Golden Apples",
+  "description": "Reimplements crafting recipe for Enchanted Golden Apples",
+  "authors": [
+    "Lexian"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "GPL-3.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.lexian.craftablegaps.craftablegaps"
+    ]
+  },
+  "mixins": [
+
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
